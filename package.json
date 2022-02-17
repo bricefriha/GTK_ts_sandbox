@@ -1,0 +1,17 @@
+{
+  "name": "gtk_ts_sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-gtk": "^0.10.0",
+    "ts-node": "^10.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "ts-node ./src/index.ts --trace-warnings",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
