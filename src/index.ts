@@ -10,7 +10,15 @@ win.on("destroy", () => Gtk.mainQuit());
 win.on("delete-event", () => false);
 
 win.setDefaultSize(200, 80);
-win.add(new Gtk.Label({ label: "Hello Gtk+" }));
+win.add(
+  new Gtk.Label({
+    label: `
+      ^_^
+    ( *_*)
+    / > 🍕
+`,
+  })
+);
 
 win.showAll();
 Gtk.main();
